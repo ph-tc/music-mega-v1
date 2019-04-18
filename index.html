@@ -151,9 +151,11 @@
 
 
     .header {
+      position: relative;
       display: table-row;
       width: 100%;
       background-color: #333;
+      z-index: 3;
     }
 
     .header .inner {
@@ -528,23 +530,6 @@
       -webkit-background-size: contain;
       background-size: contain;
       background-repeat: no-repeat;
-    }
-
-    .main .price {
-      position: absolute;
-      top: 100%;
-      width: 100%;
-      text-align: center;
-    }
-
-    .main .price p {
-      display: inline-block;
-      margin: 5px auto 0;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 22px;
-      line-height: 22px;
-      color: #ddd;
-      background-color: #aaa;
     }
 
     @media screen and (max-height: 240px) and (orientation: landscape) {
