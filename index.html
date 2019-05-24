@@ -232,14 +232,15 @@
     .main > .inner {
       position: relative;
       height: 100%;
-      -webkit-filter: blur(3px);
-      filter: blur(4px);
+			overflow: hidden;
     }
 
     .main .track {
       width: 100%;
       text-align: center;
       padding: 20px 10px;
+			-webkit-filter: blur(3px);
+			filter: blur(4px);
     }
 
     .main .track .logo {
@@ -344,6 +345,8 @@
     .main .track-info-btn {
       display: none;
       text-align: center;
+			-webkit-filter: blur(3px);
+			filter: blur(4px);
     }
 
     .main .track-info-btn button {
@@ -398,6 +401,8 @@
     .rating {
       display: table;
       margin: 0 auto;
+			-webkit-filter: blur(3px);
+			filter: blur(4px);
     }
 
     .rating .inner {
@@ -835,7 +840,7 @@
       </div>
       <a class="btn" id="btn" href="#<TARIF_YES_URL>">
         <span>
-          Слушать
+          Прослушать
         </span>
       </a>
       <div class="cancel">
