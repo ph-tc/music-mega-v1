@@ -131,7 +131,6 @@
     /*OFFER--------------------------------------------------*/
 
     .offer {
-      display: table-row;
       width: 100%;
       font-size: 0;
       text-align: center;
@@ -520,6 +519,7 @@
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
+			margin-left: -12px;
       font-family: 'Open Sans', sans-serif;
       font-size: 20px;
       font-weight: bold;
@@ -547,13 +547,6 @@
       background-size: contain;
       background-repeat: no-repeat;
     }
-
-		.main .btn > a:nth-child(1) span::after {
-			left: auto;
-			right: 100%;
-			margin-left: auto;
-			margin-right: 9px;
-		}
 
 		.main .btn > a:nth-child(2) span::after {
 			width: 20px;
@@ -809,13 +802,16 @@
 
 
 <body>
-  <div class="offer">
-    <span>SERVICEPRICE. ACCOUNT. Доступ до EXPIRE-DATE.</span>
-  </div>
   <div class="header">
+		<div class="offer">
+			<span>SERVICEPRICE. ACCOUNT. Доступ до EXPIRE-DATE.</span>
+		</div>
     <div class="inner">
+			<div class="logo">
+				<button></button>
+			</div>
       <div class="name">
-        <span>Музыка</span>
+        <span>Музыкаонлайн</span>
       </div>
       <div class="plus18">
         <div></div>
